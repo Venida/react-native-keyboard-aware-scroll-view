@@ -43,6 +43,14 @@ interface KeyboardAwareProps {
   }
 
   /**
+   * Overrides the tab height when viewIsInsideTabBar is set to true
+   *
+   * @type {boolean}
+   * @memberof KeyboardAwareProps
+   */
+  tabHeight?: number
+
+  /**
    * Lets the user enable or disable automatic resetScrollToCoords
    *
    * @type {boolean}
